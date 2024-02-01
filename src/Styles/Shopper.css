@@ -1,0 +1,500 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: arial;
+}
+.brand-name{
+    font-size: 24px;
+    font-weight: bold;
+}
+.sub-title{
+    word-spacing: 20px; 
+    cursor: pointer;   
+}
+.nav-links:hover{
+    color: tomato;
+}
+.icon{
+    word-spacing: 15px;
+    margin-left: 15px;
+}
+.count-cart{
+    content:attr(value);
+    font-size:12px;
+    color: #fff;
+    background: tomato;
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-25px;
+    top:-10px;
+    opacity:0.9;
+}
+article{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    /* margin-bottom: 10px; */
+}
+main{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    padding: 15px;
+}
+.fashion{
+    padding: 20px;
+}
+.women-fashion{
+    background-image: url(../../public/images/women-fashion1.jpeg);
+    height: 500px;
+    background-size:cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+.men-fashion{
+    background-image: url(../../public/images/men-fashion.jpg);
+    height: 500px;
+    background-size:cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+.kid-fashion{
+    background-image: url(../../public/images/kid999.jpg);
+    height: 500px;
+    background-size:cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+.women-fashion:hover {
+   opacity: 0.9;
+}
+.men-fashion:hover {
+  opacity: 0.9;
+}
+.kid-fashion:hover {
+ opacity: 0.9;
+}
+.brand-title{
+   font-size: 40px;
+   font-weight: bold;
+   color: white;
+   text-shadow: 3px 3px 3px black;
+}
+.card-button{
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 200px;
+    border: none;
+}
+.offers-card{
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: arial;
+    border: none;
+    border-bottom:1px solid lightgray;
+    
+}
+.free-cards {
+    display: flex;
+}
+.discount-cards {
+    width: 300px;
+}
+.bi-truck {
+    margin-right:10px;
+    color:red;
+}
+.sub-para {
+  padding-left:35px;
+  font-size:14px;
+  color:gray;
+}
+.free-shipping-space {
+  padding-left: 10px;
+  font-size:14px;
+  font-weight: 600;
+}
+.bi-arrow-left-right {
+  color:red;
+  padding-right:8px;
+}
+.bi-lock {
+   color:red;
+   padding-right:8px;
+}
+.bi-tag {
+  color:red;
+  padding-right:8px;
+}
+.light{
+    text-align: center;
+    padding: 60px;
+}
+.new-collection{
+    color: gray;
+    font-size: 15px;  
+}
+.lahu{
+    font-size: 40px;
+}
+.sachin{
+    color: rgb(121, 119, 119);
+}
+.collection {
+    display:grid;
+    grid-template-columns:4fr 8fr;
+    grid-gap: 30px;
+    margin-left:100px;
+    margin-right: 100px;
+    font-family: Arial;
+}
+.bag-collection{
+    background-image: url(../../public/images//Bags\ Collection123.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.bag-collection:hover{
+    opacity: 0.9;
+    margin-left: 10px;
+}
+.printed-men-shirt {
+    background-image: url("../../public/images/man-shart123.jpg");
+    height: 500px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.printed-men-shirt:hover{
+    opacity: 0.9;
+    margin-left: 10px;
+}
+.collection-heading2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom:15px;
+}
+.collection-heading3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom:15px;
+}
+.shop-now-button2 {
+    background-color: transparent;
+    color:white;
+    border:none;
+    font-size:15px;
+    font-weight:bold;
+}
+.shop-now-button3 {
+    background-color: transparent;
+    color:white;
+    border:none;
+    font-size:15px;
+    font-weight:bold;
+}
+.collection1 {
+    display:grid;
+    grid-template-columns:8fr 4fr;
+    grid-gap: 30px;
+    margin-left:100px;
+    margin-right: 100px;
+    font-family: Arial;
+    padding: 30px;
+}
+.bag-collection1{
+    background-image: url(../../public/images/women-dresses321.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.bag-collection1:hover{
+    opacity: 0.9;
+    margin-left: 10px;
+}
+.printed-men-shirt1 {
+    background-image: url("../../public/images/women-sweaters.webp");
+    height: 500px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.printed-men-shirt1:hover{
+    opacity: 0.9;
+    margin-left: 10px;
+}
+.collection-heading1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom:15px;
+}
+.collection-heading2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom:15px;
+}
+.shop-now-button1 {
+    background-color: transparent;
+    color:white;
+    border:none;
+    font-size:15px;
+    font-weight:bold;
+}
+.shop-now-button2 {
+    background-color: transparent;
+    color:black;
+    border:none;
+    font-size:15px;
+    font-weight:bold;
+}
+.printed-men-shirt1:hover{
+    opacity: 0.9;
+    padding: 10px;
+}
+.gorup{
+    padding: 50px;
+}
+.sonu123{
+    font-size: 40px;
+    margin-left: 400px;
+}
+.sonu1234 {
+    word-spacing: 15px;
+    margin-left: 450px;
+    padding: 30px;
+}
+.sonu1234:hover{
+    color: red;
+}
+.card321{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    column-gap: 20px;
+    font-family: arial;
+}
+.shoes123{
+    background-image: url(../../public/images/shoper1.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.shoes123:hover{
+    background-image: url(../../public/images/shoes-women-background.webp);
+    height: 400px;
+    background-size: cover;
+}
+.dress{
+    background-image: url(../../public/images/shoper2.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.dress:hover{
+    background-image: url(../../public/images/Cotton\ floarl\ print\ dress.webp);
+    height: 400px;
+    background-size: cover;
+}
+.shoes1234{
+    background-image: url(../../public/images/shoper3.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.shoes1234:hover{
+    background-image: url(../../public/images/man-shoes-background.webp);
+    height: 400px;
+    background-size: cover;
+
+}
+.top{
+    background-image: url(../../public/images/top-women.webp);
+    height: 400px;
+    background-size: cover;
+}
+.content{
+    padding-top: 430px;
+}
+.top2{
+    color: gray;
+    font-size: 15px;
+}
+.g1{
+    font-weight: bold;
+}
+.g2{
+    color: gray;
+}
+.card3214{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    column-gap: 20px;
+    font-family: arial;
+    margin-top: 150px;
+}
+.dress321123{
+    background-image: url(../../public/images/shoper5.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.dress1234{
+    background-image: url(../../public/images/shoper6.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.dress1234:hover{
+    background-image: url(../../public/images/bag-styles.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.skirts{
+    background-image: url(../../public/images/shoper7.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.skirts:hover{
+    background-image: url(../../public/images/curti123.webp);
+    background-size: cover;
+    height: 400px;
+}
+.shoes1232{
+    background-image: url(../../public/images/shoper8.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.a3{
+    margin-top: 200px;
+    padding-left: 550px;
+}
+.main-photo{
+    background-image: url(../../public/images/shoper9.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+.get-50off{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding-left: 650px;
+    padding-top: 200px;
+}
+.get-off123{
+    margin-left: 650px;
+    padding: 15px;
+    padding-left: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.sachin-brand{
+    margin-left: 400px;
+    padding: 80px;
+}
+.sachin-sub1{
+    color: gray;
+    margin-left:50px ;
+    padding: 20px;
+}
+.sachin-sub{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cart-body{
+    border: 1px solid gray;
+    height: 300px;
+    width: 300px;
+
+}
+.cart-info123{
+    margin-left: 75px;
+    margin-top: -50px;
+
+}
+.cart-title{
+  color: lightgray;
+}
+.cart-sub-title{
+   font-weight: bold;
+}
+.info{
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    color: gray;
+}
+.cart-date{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cart-img{
+    margin-left:50px ;
+    margin-top: 40px;
+}
+footer{
+    background-color: #1f1f1f;
+    padding: 100px;
+    color: #b1b1b1;
+}
+.v2{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 32px;
+    color: white;
+    font-size: 24px;
+}
+.form-controler{
+    background-color: #303030;
+    padding: 17px 30px;
+    border: none;
+    margin-left: 320px;
+}
+.btn-controler{
+    background-color: #525252;
+    padding: 17px 32px;
+    border: none;
+    color: white;
+    font: 17px jost;
+}
+.intems-footer{
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+}
+.footer-title1234{
+    font-size: 28px;
+    color: white;
+    margin: 0px 0px 24px;
+    font: 28px;
+}
+.footer-title123{
+   margin: 0px 0px 16px;
+   font: 13px;
+   color: white;
+   margin-top: 30px;
+}
